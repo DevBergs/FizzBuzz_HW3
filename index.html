@@ -12,8 +12,9 @@
     <main>
       <h1>Fizz Buzz App</h1>
       <hr />
-      <div class="" id="app">
-        <div class="controlBox">
+
+      <div id="controlBox">
+        <div class="inpt1">
           <h3>Min value:</h3>
           <input
             type="number"
@@ -22,8 +23,8 @@
             value="1"
             min="1"
           />
-          <br />
-          <br />
+        </div>
+        <div class="inpt2">
           <h3>Max value:</h3>
           <input
             type="number"
@@ -32,27 +33,23 @@
             value="100"
             max="100"
           />
-          <br />
-          <br />
-          <button id="btn-generate">Generae Divs</button>
-          <br />
-          <br />
-          <button id="btn-generatefizz">Fizz</button>
-          <br />
-          <br />
-          <button id="btn-generatefizzbuzz">FizzBuzz</button>
-          <br />
-          <br />
-          <button id="btn-cleardivs">Clear Divs</button>
-          <br />
-          <br />
         </div>
       </div>
+      <div id="buttons">
+        <button id="btn-generate" class="btn1">Generae Divs</button>
 
-      <hr />
-      <div id="elements"></div>
+        <button id="btn-generatefizz" class="btn2">Fizz</button>
 
-      <hr />
+        <button id="btn-generatebuzz" class="btn3">Buzz</button>
+
+        <button id="btn-generatefizzbuzz" class="btn4">FizzBuzz</button>
+
+        <button id="btn-cleardivs" class="btn5">Clear Divs</button>
+      </div>
+
+      <!-- <button id="btn-generatenum">Num</button> -->
+
+      <div id="elements"> Div`s</div>
     </main>
   </body>
 </html>
