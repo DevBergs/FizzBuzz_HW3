@@ -95,17 +95,20 @@ button:active {
 /* -------------------------------------------------------------------------- */
 
 #elements {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
   margin-top: 20px;
   width: 100%;
   height: auto;
-  display: grid;
-  grid-template-columns: repeat(10, minmax(80px, 1fr));
   grid-gap: 5px;
   align-content: center;
   justify-items: center;
   font-size: 14px;
 }
 
+#elements div {
+  display: flex;
+}
 .fizbuz {
   background: linear-gradient(to bottom, #cccece 0%, #aa968f 100%);
   display: flex;
@@ -168,11 +171,11 @@ button:active {
 
 @media (max-width: 576px) {
   #elements {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
     margin-top: 5px;
     width: 100%;
     height: auto;
-    display: grid;
-    grid-template-columns: repeat(5, minmax(80px, 1fr));
     grid-gap: 5px;
     align-content: center;
     justify-items: center;
