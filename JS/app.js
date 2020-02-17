@@ -50,7 +50,7 @@ function creatDivs(genFizzBuzz, genFizz, genBuzz, genNum) {
         newPar.appendChild(document.createTextNode(i));
         divEl.appendChild(newDiv).setAttribute("class", "num");
       } else {
-        newDiv.style = "display: none";
+        newDiv.style = "display: none"; //delite none divs
       }
     }
   }
