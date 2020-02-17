@@ -3,8 +3,6 @@
   margin: 0;
 }
 
-
-
 body {
   background-color: #ffffff;
   font-family: Arial, Helvetica, sans-serif;
@@ -15,20 +13,19 @@ body {
   font-style: normal;
   font-variant: small-caps;
   text-transform: none;
-    margin-right: 20%;
-    margin-left: 20%;
-    background: #167DD8;
-background: -moz-radial-gradient(center, #167DD8 0%, #020C4C 100%);
-background: -webkit-radial-gradient(center, #167DD8 0%, #020C4C 100%);
-background: radial-gradient(ellipse at center, #167DD8 0%, #020C4C 100%);
-
+  margin-right: 20%;
+  margin-left: 20%;
+  background: #167dd8;
+  background: -moz-radial-gradient(center, #167dd8 0%, #020c4c 100%);
+  background: -webkit-radial-gradient(center, #167dd8 0%, #020c4c 100%);
+  background: radial-gradient(ellipse at center, #167dd8 0%, #020c4c 100%);
 }
 
 main h1 {
   text-align: center;
   font-size: 40px;
   margin: 20px;
-  text-shadow: 2px 2px 2px #FFFFFF;
+  text-shadow: 2px 2px 2px #ffffff;
 }
 
 /* Inputs */
@@ -44,7 +41,6 @@ input {
 #controlBox {
   margin: 20px;
   text-align: center;
-  
 }
 
 .inpt1 {
@@ -66,8 +62,8 @@ input {
   align-items: center;
   justify-content: space-evenly;
   border-radius: 4px;
-  -webkit-box-shadow: 5px 5px 7px 0px rgba(0,0,0,0.51); 
-  box-shadow: 5px 5px 7px 0px rgba(0,0,0,0.51);
+  -webkit-box-shadow: 5px 5px 7px 0px rgba(0, 0, 0, 0.51);
+  box-shadow: 5px 5px 7px 0px rgba(0, 0, 0, 0.51);
 }
 
 button {
@@ -90,7 +86,7 @@ button {
 
 button:hover {
   background: linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
-  background-color: #f6f6f6;
+  background-color: #c7e3fa;
 }
 
 button:active {
@@ -99,7 +95,7 @@ button:active {
 }
 
 p {
- text-align: center;
+  text-align: center;
 }
 /* -------------------------------------------------------------------------- */
 
@@ -112,12 +108,9 @@ p {
   grid-gap: 5px;
   align-content: center;
   justify-items: center;
-  font-size: 14px;
+  font-size: 12px;
 }
 
-#elements div {
-  display: flex;
-}
 .fizbuz {
   background: linear-gradient(to bottom, #cccece 0%, #aa968f 100%);
   display: flex;
@@ -126,7 +119,6 @@ p {
   width: 100%;
   min-height: 100px;
   border-radius: 4px;
-  
 }
 
 .fizbuz:hover {
@@ -189,12 +181,11 @@ p {
     grid-gap: 5px;
     align-content: center;
     justify-items: center;
-    font-size: 14px;
+    font-size: 9px;
   }
 
   #controlBox {
     min-height: 180px;
-    background-color: rgb(228, 229, 230);
   }
 
   #buttons {

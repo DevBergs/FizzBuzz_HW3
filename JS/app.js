@@ -26,7 +26,8 @@ btnClearDivs.addEventListener("click", onRemove);
 
 //Funktion Creating fizz, buzz, fizzbuzz, num
 
-function creatDivs(genFizzBuzz, genFizz, genBuzz) {
+
+function creatDivs(genFizzBuzz, genFizz, genBuzz, genNum) {
   onRemove();
   console.log("Div`s Created! WooHoo");
   for (let i = 1; i <= 100; i++) {
@@ -46,11 +47,13 @@ function creatDivs(genFizzBuzz, genFizz, genBuzz) {
       } else if (i % 5 === 0 && genBuzz == true) {
         newPar.appendChild(document.createTextNode(i + " = BUZZ"));
         divEl.appendChild(newDiv).setAttribute("class", "buz");
-      } else {
+      } else if (genNum === true) {
         newPar.appendChild(document.createTextNode(i));
         divEl.appendChild(newDiv).setAttribute("class", "num");
+      } else {
+        newDiv.style = "display: none";
       }
-    }
+    }-+
   }
 }
 
