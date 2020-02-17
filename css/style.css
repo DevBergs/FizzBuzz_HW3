@@ -17,6 +17,10 @@ body {
   text-transform: none;
     margin-right: 20%;
     margin-left: 20%;
+    background: #167DD8;
+background: -moz-radial-gradient(center, #167DD8 0%, #020C4C 100%);
+background: -webkit-radial-gradient(center, #167DD8 0%, #020C4C 100%);
+background: radial-gradient(ellipse at center, #167DD8 0%, #020C4C 100%);
 
 }
 
