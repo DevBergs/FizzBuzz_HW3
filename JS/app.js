@@ -26,7 +26,6 @@ btnClearDivs.addEventListener("click", onRemove);
 
 //Funktion Creating fizz, buzz, fizzbuzz, num
 
-
 function creatDivs(genFizzBuzz, genFizz, genBuzz, genNum) {
   onRemove();
   console.log("Div`s Created! WooHoo");
@@ -53,7 +52,7 @@ function creatDivs(genFizzBuzz, genFizz, genBuzz, genNum) {
       } else {
         newDiv.style = "display: none";
       }
-    }-+
+    }
   }
 }
 
